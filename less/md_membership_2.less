@@ -1,0 +1,27 @@
+@import './variables.less';
+
+#md_membership_2{
+    padding: 20px 0;
+    .container{
+        .page-container();
+        hr{
+            width: 35px;
+            border: @color-primary 2px solid;
+            margin-left: 0;
+        }
+        h4{
+            .default-title();
+        }
+        .membership{
+            ul{
+                li{
+                    margin-top: 20px;
+                    h5{
+                        .raleway-sm-bold();
+                        font-size: @fsize-medium + 2;
+                    }
+                }
+            }
+        }
+    }
+}

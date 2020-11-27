@@ -1,0 +1,48 @@
+@import './variables.less';
+
+
+#module_7{
+    padding: 25px 0;
+    .container{
+        hr{
+            width: 35px;
+            border: @color-primary 2px solid;
+            margin-left: 0;
+        }
+        h4{
+            .default-title();
+        }
+        .row{
+            .grid_items{
+                padding: 25px 0;
+                *{
+                    padding: 7px 0;
+                }
+                .icon_and_header{
+                    .icon{
+                        .iconify{
+                            font-size: @fsize-large + 25;
+                        }
+                    }
+                    .header{
+                        padding-left: 10px;
+                        .header_title{
+                            .raleway-sm-bold();
+                            font-size: @fsize-medium + 3;
+                        }
+                        .header_subtitle{
+                            .raleway-sm-bold();
+                            font-size: @fsize-medium;
+                            color: @color-secondary;
+                            letter-spacing: 3px;
+                        }
+                    }
+                }
+                .descriptions{
+                    .raleway-thin();
+                    font-size: @fsize-medium + 2;
+                }
+            }
+        }
+    }
+}

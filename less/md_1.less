@@ -1,0 +1,62 @@
+/*Import variables*/
+@import './variables.less';
+
+/* ---------------------------------------Module 1---------------------------------------*/
+
+#module_1{
+    @media screen and (max-width: @md) {
+        display: none !important;
+    }
+    background: @color-primary;
+    padding: 10px 0;
+    .container{
+        .page-container();
+        .contact_bar_left{
+            .raleway-sm-bold();
+            font-size: @fsize-medium - 1;
+            color: @color-white;
+            padding: 10px;
+            width: auto;
+            display: inline-flex;
+            ul{
+                .custom-ul();
+                li{
+                    padding-right: 10px;
+                    float: left !important;
+                    a{
+                        color: @color-white;
+                        text-decoration: none;
+                        i{
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            } 
+        }
+        .contact_bar_right{
+            .raleway-sm-bold();
+            color: @color-white;
+            ul{
+                float: right;
+                width: auto;
+                display: inline-flex;
+                .custom-ul();
+                li{
+                    float: left;
+                    padding-top: 5px;
+                    padding-left: 10px;
+                    a{
+                        float: left;
+                        border: 1px solid @color-white;
+                        color: @color-white;
+                        width: 2.75em;
+                        height: 2.75em;
+                        line-height: 2.7em;
+                        text-align: center;
+                    }
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import './variables.less';
+
+#module_event_2{
+    .container{
+        .page-container();
+        hr{
+            width: 35px;
+            border: @color-primary 2px solid;
+            margin-left: 0;
+        }
+        h4{
+            .default-title();
+            margin-bottom: 20px;
+        }
+        .row{
+            .events{
+                img{
+                    margin-bottom: 25px;
+                    height: auto;
+                    max-width: 100%;
+                }
+                h4{
+                    .raleway-sm-bold();
+                    text-transform: none !important; 
+                }
+                .event-detail{
+                    .raleway-regular();
+                    font-size: @fsize-medium + 1;
+                }
+            }
+        }
+    }
+}

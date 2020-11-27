@@ -1,0 +1,98 @@
+/*Color variables*/
+@color-primary: #00bfff;
+@color-black: #000000;
+@color-secondary: #9fa19c;
+@color-dark: #262626;
+@color-white: #ffffff;
+/*Size variables*/
+@fsize-tiny: 10px;
+@fsize-small: 12px;
+@fsize-medium: 14px;
+@fsize-large: 40px;
+
+/*Module 11*/
+.md_11_conatiner{
+    margin: 0 15%;
+    margin-top: 10px;
+
+    /*Title*/
+    .md_11_title{
+        text-transform: uppercase;
+        padding: 5px 0;
+        text-align: center;
+        position: relative;
+        font-weight: 800;
+        font-size: @fsize-medium;
+        margin-bottom: 20px;
+    }
+    .md_11_title::before{
+        content: "";
+        border-bottom: 2px solid @color-primary;
+        width: 20px;
+        position: absolute;
+        top: -15%;
+        left: 49%;
+    }
+
+    /*Card*/
+    .card{
+        border: @color-black 1px solid;
+        border-radius: 0 !important;
+        cursor: pointer;
+        .card-body{
+            padding: 0 0 15px 0 !important;
+            text-align: center;
+            .card-title{
+                text-align: center;
+                background: @color-dark;
+                color: @color-white;
+                padding: 30px 20px;
+                font-size: 16px;
+                text-transform: uppercase;
+                margin: 0 !important;
+            }
+            .card_price{
+                font-size: @fsize-large;
+                text-align: center;
+                padding-top: 30px;
+            }
+            .card_price_sub{
+                font-size: @fsize-tiny;
+                color: @color-secondary;
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            .card_text{
+                text-align: center;
+                color: @color-secondary;
+                font-size: @fsize-tiny;
+                line-height: 40px;
+            }
+            .md_11_btn{
+                background: @color-white;
+                text-transform: uppercase;
+                border: @color-black 1px solid;
+                padding: 0.25em;
+                color: @color-black;
+                font-size: 12px;
+            }
+        }
+    }
+    .card:hover{
+        border: @color-primary 1px solid;
+        .card-title{
+            background: @color-primary;
+            color: @color-white;
+        }
+        .md_11_btn{
+            color: @color-primary;
+            border: @color-primary 1px solid;
+            font-weight: 500;
+        }
+        .card_price{
+            color: @color-primary;
+        }
+    }
+
+
+}
