@@ -1,0 +1,29 @@
+@import './variables.less';
+
+#md_search_2{
+    .search_form{
+        .raleway-sm-bold();
+        background: fade(@color-secondary, 30%);
+        display: block; /*change display to none when mix it with project*/
+        padding: 10px 10px 10px 20px;
+        position: absolute;
+        bottom: 5px; /*change bottom variable when mix it with project*/
+        border: 1px solid @color-secondary;
+        .search_input{
+            width: 100%;
+            border: none;
+            line-height: 1.5rem;
+            padding: 10px 15px;
+            font-size: @fsize-medium + 1;
+        }
+        a{
+            color: @color-black;
+            i{
+                display: inline;
+                position: absolute;
+                top: 40%;
+                right: 30px;
+            }
+        }
+    }
+}

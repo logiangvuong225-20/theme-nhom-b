@@ -1,0 +1,48 @@
+@import './variables.less';
+
+#md_contact_2{
+    .container{
+        .page-container();
+        .raleway-regular();
+        .contact_field{
+            .form-control{
+                font-size: @fsize-medium + 1;
+                border: 1px @color-secondary solid !important;
+                padding: 24px 10px;
+                margin: 25px 0 !important;
+                width: 100%;
+                border-radius: 0 !important;
+                outline:0px !important;
+                -webkit-appearance:none;
+                box-shadow: none !important;
+            }
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+            input[type=number] {
+                -moz-appearance:textfield;
+            }
+            textarea{
+                line-height: 1.9em;
+                padding: 10px !important;
+                height: 410px;
+                resize: none;
+            }
+        }
+        .btn-accent{
+            float: right;
+            border-radius: none !important;
+            padding: 10px 17px;
+            .raleway-regular();
+            text-transform: uppercase;
+            background: @color-primary !important;
+            transition: .3s ease-in-out all;
+            text-decoration: none;
+            color: @color-white;
+        }
+        .btn-accent:hover{
+            color: @color-black;
+        }
+    }
+}

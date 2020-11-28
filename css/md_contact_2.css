@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Raleway-rg';
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: 'Raleway-smb';
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Raleway-thin';
+  src: url(../fonts/Raleway-Thin.ttf);
+}
+@font-face {
+  font-family: 'Raleway-bold';
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+#md_contact_2 .container {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Raleway-rg';
+}
+#md_contact_2 .container .contact_field .form-control {
+  font-size: 15px;
+  border: 1px #9fa19c solid !important;
+  padding: 24px 10px;
+  margin: 25px 0 !important;
+  width: 100%;
+  border-radius: 0 !important;
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+#md_contact_2 .container .contact_field input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#md_contact_2 .container .contact_field input[type=number] {
+  -moz-appearance: textfield;
+}
+#md_contact_2 .container .contact_field textarea {
+  line-height: 1.9em;
+  padding: 10px !important;
+  height: 410px;
+  resize: none;
+}
+#md_contact_2 .container .btn-accent {
+  float: right;
+  border-radius: none !important;
+  padding: 10px 17px;
+  font-family: 'Raleway-rg';
+  text-transform: uppercase;
+  background: #00bfff !important;
+  transition: .3s ease-in-out all;
+  text-decoration: none;
+  color: #ffffff;
+}
+#md_contact_2 .container .btn-accent:hover {
+  color: #000000;
+}

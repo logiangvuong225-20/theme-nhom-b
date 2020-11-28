@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Raleway-rg';
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: 'Raleway-smb';
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Raleway-thin';
+  src: url(../fonts/Raleway-Thin.ttf);
+}
+@font-face {
+  font-family: 'Raleway-bold';
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+#module_about_2 {
+  padding: 25px 0;
+}
+#module_about_2 .container {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#module_about_2 .container .what_we_provide hr {
+  width: 35px;
+  border: #00bfff 2px solid;
+  margin-left: 0;
+}
+#module_about_2 .container .what_we_provide h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Raleway-rg';
+  font-weight: 600;
+  padding-top: 10px;
+}
+#module_about_2 .container .what_we_provide ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none;
+  padding-top: 5px !important;
+  padding-left: 30px !important;
+}
+#module_about_2 .container .what_we_provide ul li {
+  transition: all .25s ease-in-out;
+  position: relative;
+  margin: 30px 0;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+#module_about_2 .container .what_we_provide ul li ::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f30b";
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+  position: absolute;
+  top: -30%;
+  left: -30px;
+  border: 2px #000000 solid;
+}
+#module_about_2 .container .what_we_provide ul li a {
+  transition: all .25s ease-in-out;
+  font-family: 'Raleway-rg';
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+#module_about_2 .container .what_we_provide ul li:hover {
+  transition: all .25s ease-in-out;
+}
+#module_about_2 .container .what_we_provide ul li:hover ::before {
+  border: 2px #00bfff solid;
+}
+#module_about_2 .container .what_we_provide ul li:hover a {
+  transition: all .25s ease-in-out;
+  color: #00bfff;
+}
