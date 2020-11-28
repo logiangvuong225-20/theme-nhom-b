@@ -13,25 +13,26 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/md_11.less', 'css/md_11.css');
+$less->compileFile('less/md_checkout_3.less', 'css/md_checkout_3.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Module HOME 11</title>
+        <title>Module HOME 1</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/md_11.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/md_checkout_3.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/font-awesome/all.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/md_11.less', 'css/md_11.css');
+        $less->compileFile('less/md_checkout_3.less', 'css/md_checkout_3.css');
         ?>
     </head>
     <body >
-        <?php include '../cms/md_11-content.php'; ?>
+        <?php include '../cms/md_checkout_3-content.php'; ?>
     </body>
 </html>

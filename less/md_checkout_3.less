@@ -1,0 +1,87 @@
+@import './variables.less';
+
+#md_checkout_3{
+    .container{
+        .page-container();
+        .checkout_heading{
+            text-transform: uppercase;
+            .raleway-bold();
+        }
+        .table_checkout_content{
+            margin: 70px 0 20px 0;
+            border-collapse: separate;
+            border: 1px solid fade(@color-black, 10%);
+            border-radius: 5px;
+            width: 100%;
+            .raleway-regular();
+            font-size: @fsize-medium + 1;
+            th{
+                font-weight: 700;
+                padding: 9px 12px;
+                line-height: 1.5em;
+            }
+            tbody{
+                td{
+                    border-top: 1px solid fade(@color-black, 10%);
+                    padding: 9px 12px;
+                    line-height: 1.5em;
+                }
+                .order_items{
+                    .product_subtotal{
+                        display: flex;
+                    }
+                }
+                ._subtotal{
+                    font-weight: 800;
+                    .cart_subtotal{
+                        display: flex;
+                    }
+                }
+                ._total{
+                    font-weight: 800;
+                    .cart_total{
+                        display: flex;
+                    }
+                }
+            }
+        }
+        .payment{
+            background-color: fade(@color-secondary, 30%);
+            border-radius: 5px;
+            padding: 5px 10px;
+            ul{
+                .custom-ul();
+                border-bottom: 1px solid fade(@color-black, 10%);
+                padding: 15px 0 !important;
+                li{
+                    padding: 9px 12px;
+                    line-height: 1.5em;
+                }
+                .checkout_notice{
+                    font-size: @fsize-tiny;
+                    color: @color-white;
+                }
+            }
+            .proceed_to_checkout{
+                padding: 10px;
+                text-align: right;
+                .btn-default{
+                    font-size: @fsize-medium;
+                    border: 2px @color-black solid !important;
+                    border-radius: none !important;
+                    padding: 2px 7px;
+                    .raleway-sm-bold();
+                    text-transform: uppercase;
+                    background: 0 !important;
+                    transition: .3s ease-in-out all;
+                }
+                .btn-default:hover{
+                    border: 2px @color-primary solid !important;
+                    color: @color-primary;
+                    transition: .3s ease-in-out all;
+                }
+            }
+        }
+
+    }
+}
