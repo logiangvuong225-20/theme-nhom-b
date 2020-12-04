@@ -45,6 +45,14 @@
   height: 410px;
   resize: none;
 }
+#md_contact_2 .container .contact_field .danger-alert {
+  border: 1px red solid !important;
+}
+#md_contact_2 .container .contact_field .invalid-feedback {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
 #md_contact_2 .container .btn-accent {
   float: right;
   border-radius: none !important;

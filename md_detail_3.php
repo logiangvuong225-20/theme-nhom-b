@@ -13,29 +13,26 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/md_contact_2.less', 'css/md_contact_2.css');
+$less->compileFile('less/md_detail_3.less', 'css/md_detail_3.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Module HOME 11</title>
+        <title>Module HOME 1</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/md_contact_2.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/md_detail_3.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome/all.css" rel="stylesheet" type="text/css" />
-        <script src="<?php echo $url_path ?>/js/jquery-3.5.1.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/validation.js"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/md_contact_2.less', 'css/md_contact_2.css');
+        $less->compileFile('less/md_detail_3.less', 'css/md_detail_3.css');
         ?>
     </head>
     <body >
-        <?php include '../cms/md_contact_2-content.php'; ?>
+        <?php include '../cms/md_detail_3-content.php'; ?>
     </body>
 </html>

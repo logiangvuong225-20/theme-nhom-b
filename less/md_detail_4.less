@@ -1,0 +1,83 @@
+@import './variables.less';
+
+#md_detail_4{
+    padding: 10px;
+    hr{
+        width: 35px;
+        border: @color-primary 1px solid;
+        margin-left: 0;
+    }
+    h4 {
+        .default-title();
+        .raleway-bold();
+    }
+    .shoping-cart{
+        .cart-list{
+            .custom-ul();
+            border-bottom: 1px solid fade(@color-black, 10%);
+            padding: 1px 0 !important;
+            .cart-item{
+                padding: 10px;
+                display: flex;
+                position: relative;
+                border-bottom: 1px solid fade(@color-black, 10%);
+                .remove-cart{
+                    position: absolute;
+                    top: 0;
+                    right: 5px;
+                    color: fade(@color-black, 20%);
+                    transition: 0.3s ease-in-out;
+                    :hover{
+                    transition: 0.3s ease-in-out;
+                    color: fade(@color-black, 50%);
+                    }
+                }
+                img{
+                    width: 30px;
+                    height: 30px;
+                    margin: 10px 0;
+                }
+                .product-detail{
+                    padding-left: 15px;
+                    .cart-product-name{
+                        color: @color-black;
+                        text-decoration: none;
+                    }
+                    .cart-product-quanlity{
+                        padding: 5px 0;
+                        i{
+                            font-size: @fsize-tiny;
+                        }
+                        span{
+                            padding-left: 5px;
+                            color: @color-primary;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+            }
+        }
+        .cart-sub-total{
+            font-size: @fsize-medium + 2;
+            .raleway-regular();
+            padding: 10px 0;
+        }
+        .mini-cart-submit{
+            .btn-default{
+                font-size: @fsize-tiny;
+                border: 2px @color-black solid !important;
+                border-radius: none !important;
+                padding: 7px 10px;
+                .raleway-regular();
+                text-transform: uppercase;
+                background: 0 !important;
+                transition: .3s ease-in-out all;
+            }
+            .btn-default:hover{
+                border: 2px @color-primary solid !important;
+                color: @color-primary;
+                transition: .3s ease-in-out all;
+            }
+        }
+    }
+}

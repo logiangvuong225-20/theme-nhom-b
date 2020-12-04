@@ -1,0 +1,79 @@
+.md_11_conatiner {
+  margin: 0 15%;
+  margin-top: 10px;
+}
+.md_11_conatiner .md_11_title {
+  text-transform: uppercase;
+  padding: 5px 0;
+  text-align: center;
+  position: relative;
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.md_11_conatiner .md_11_title::before {
+  content: "";
+  border-bottom: 2px solid #00bfff;
+  width: 20px;
+  position: absolute;
+  top: -15%;
+  left: 49%;
+}
+.md_11_conatiner .card {
+  border: #000000 1px solid;
+  border-radius: 0 !important;
+  cursor: pointer;
+}
+.md_11_conatiner .card .card-body {
+  padding: 0 0 15px 0 !important;
+  text-align: center;
+}
+.md_11_conatiner .card .card-body .card-title {
+  text-align: center;
+  background: #262626;
+  color: #ffffff;
+  padding: 30px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0 !important;
+}
+.md_11_conatiner .card .card-body .card_price {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+.md_11_conatiner .card .card-body .card_price_sub {
+  font-size: 10px;
+  color: #9fa19c;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.md_11_conatiner .card .card-body .card_text {
+  text-align: center;
+  color: #9fa19c;
+  font-size: 10px;
+  line-height: 40px;
+}
+.md_11_conatiner .card .card-body .md_11_btn {
+  background: #ffffff;
+  text-transform: uppercase;
+  border: #000000 1px solid;
+  padding: 0.25em;
+  color: #000000;
+  font-size: 12px;
+}
+.md_11_conatiner .card:hover {
+  border: #00bfff 1px solid;
+}
+.md_11_conatiner .card:hover .card-title {
+  background: #00bfff;
+  color: #ffffff;
+}
+.md_11_conatiner .card:hover .md_11_btn {
+  color: #00bfff;
+  border: #00bfff 1px solid;
+  font-weight: 500;
+}
+.md_11_conatiner .card:hover .card_price {
+  color: #00bfff;
+}
