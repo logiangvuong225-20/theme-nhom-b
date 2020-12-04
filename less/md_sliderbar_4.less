@@ -1,0 +1,31 @@
+@import './variables.less';
+#md_sliderbar_4{
+    hr{
+        width: 35px;
+        border: @color-primary 2px solid;
+        margin-left: 0;
+    }
+    h4{
+        .default-title();
+        margin-bottom: 20px;
+    }
+    .feeds{
+        display: flex;
+        i{
+            color: @color-primary;
+            padding: 15px 10px;
+        }
+        p{
+            margin: 0;
+            .raleway-regular();
+            padding: 5px;
+            color: @color-secondary;
+            line-height: 25px;
+            font-size: @fsize-medium + 2;
+            span{
+                padding-top: 5px;
+                display: block;
+            }
+        }
+    }
+}
