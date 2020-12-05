@@ -102,8 +102,7 @@ $less->compileFile('less/search-1.less', 'css/search-1.css');
 </head>
 
 <body>
-    <!-- <?php include './b1-content.php'; ?> -->
-    <?php include './check-2-content.php'; ?>
+    <?php include './search-1-content.php'; ?>
 
 </body>
 
