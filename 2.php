@@ -29,6 +29,8 @@ $less->compileFile('less/check-5.less', 'css/check-5.css');
 $less->compileFile('less/check-1.less', 'css/check-1.css');
 $less->compileFile('less/check-2.less', 'css/check-2.css');
 $less->compileFile('less/search-1.less', 'css/search-1.css');
+$less->compileFile('less/cart-1.less', 'css/cart-1.css');
+$less->compileFile('less/detail-1.less', 'css/detail-1.css');
 
 
 
@@ -61,6 +63,8 @@ $less->compileFile('less/search-1.less', 'css/search-1.css');
     <link href="<?php echo $url_path ?>/css/check-1.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/check-2.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/search-1.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/cart-1.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/detail-1.css" rel="stylesheet" type="text/css" />
 
 
 
@@ -97,12 +101,15 @@ $less->compileFile('less/search-1.less', 'css/search-1.css');
         $less->compileFile('less/check-1.less', 'css/check-1.css');
         $less->compileFile('less/check-2.less', 'css/check-2.css');
         $less->compileFile('less/search-1.less', 'css/search-1.css');
+        $less->compileFile('less/cart-1.less', 'css/cart-1.css');
+        $less->compileFile('less/detail-1.less', 'css/detail-1.css');
 
         ?>
 </head>
 
 <body>
-    <?php include './search-1-content.php'; ?>
+    <?php include './detail-1-content.php'; ?>
+    <!-- <?php include './3-content.php'; ?> -->
 
 </body>
 

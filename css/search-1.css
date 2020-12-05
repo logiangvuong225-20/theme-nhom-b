@@ -1,0 +1,25 @@
+.module-search-1 .content .content-search h2 {
+  font-weight: bold;
+  color: #5c5c5c;
+}
+.module-search-1 .content .content-search p.ct-sm {
+  font-weight: bold;
+  color: #5c5c5c;
+}
+.module-search-1 .content .content-search .des {
+  color: #5c5c5c;
+  font-size: 0.9em;
+}
+.module-search-1 .content .content-search button {
+  background: #fff;
+  color: #5c5c5c;
+  border: #5c5c5c 1px solid;
+  padding: 5px 12px;
+  float: right;
+  margin-right: 20px;
+}
+.module-search-1 .content .content-search button:hover {
+  color: #00bfff;
+  border: #00bfff 1px solid;
+  transition: 0.4s;
+}

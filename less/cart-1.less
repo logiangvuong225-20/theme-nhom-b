@@ -1,0 +1,90 @@
+@color-br: #f4f4f4;
+@color-base: #000;
+@color-hv: #00bfff;
+@color-p: #a7a4a4;
+@color-h: #414141;
+.module-cart-1 {
+  .content-cart {
+    .title {
+      font-size: 0.9em;
+      color: @color-h;
+      font-weight: bold;
+    }
+
+    border-radius: 8px;
+    border: 1px solid @color-p;
+    text-align: center;
+    .delete {
+      float: left;
+      margin: 0 50px;
+      i {
+        color: @color-p;
+        cursor: pointer;
+      }
+    }
+    .infoProduct {
+      float: left;
+      .img-product {
+        width: 32px;
+        box-shadow: none;
+      }
+      .title-product {
+        color: @color-h;
+        font-size: 0.8em;
+        margin-left: 50px;
+        &:hover {
+          color: #cf8a3a;
+          transition: 0.3s;
+        }
+      }
+      .a-title {
+        text-decoration: none;
+      }
+    }
+    .coupon {
+      float: left;
+      margin-top: 30px;
+      input {
+        outline: none;
+        border: 1px solid @color-p;
+        margin-left: 20px;
+        width: 200px;
+        height: 30px;
+        margin-bottom: 20px;
+        font-size: 0.9em;
+        color: #a7a4a4;
+      }
+    }
+    .btn {
+      border: 1px solid @color-base;
+      color: @color-h;
+      border-radius: 0;
+      outline: none;
+      width: 180px;
+      height: 30px;
+      margin-bottom: 1px;
+      font-size: 0.9em;
+      &:hover {
+        border: 1px solid @color-hv;
+        color: @color-hv;
+      }
+    }
+    .quantily-product {
+      margin-top: 5px;
+      input {
+        background: #f1f1f1;
+        border: 1px solid #d8d6d6;
+        padding: 10px;
+      }
+    }
+    .btn-subtotal {
+      margin-top: 30px;
+    }
+    hr {
+      width: 120%;
+    }
+    hr.hr-none {
+      width: 100%;
+    }
+  }
+}

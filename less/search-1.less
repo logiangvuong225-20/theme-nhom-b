@@ -1,0 +1,35 @@
+@color-ex: #5c5c5c;
+@color-bd: #00bfff;
+@color-des: #999999;
+
+.module-search-1 {
+  .content {
+    .content-search {
+      h2 {
+        font-weight: bold;
+        color: @color-ex;
+      }
+      p.ct-sm {
+        font-weight: bold;
+        color: @color-ex;
+      }
+      .des {
+        color: @color-ex;
+        font-size: 0.9em;
+      }
+      button {
+        background: #fff;
+        color: @color-ex;
+        border: @color-ex 1px solid;
+        padding: 5px 12px;
+        float: right;
+        margin-right: 20px;
+        &:hover {
+          color: @color-bd;
+          border: @color-bd 1px solid;
+          transition: 0.4s;
+        }
+      }
+    }
+  }
+}
