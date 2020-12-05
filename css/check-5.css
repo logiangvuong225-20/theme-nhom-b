@@ -1,0 +1,22 @@
+.module-check-5 .rencent-comment .h-hr {
+  border: 1px solid #00bfff;
+  width: 30px;
+  margin: 10px 0;
+  margin-bottom: 20px;
+}
+.module-check-5 .rencent-comment h5 {
+  font-weight: bold;
+  color: #585858;
+  font-size: 0.45cm;
+}
+.module-check-5 .rencent-comment .content-cmt .des-rec {
+  color: #00bfff;
+  text-decoration: none;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+}
+.module-check-5 .rencent-comment .content-cmt .px {
+  letter-spacing: 0.05em;
+  font-size: 0.9em;
+  color: #525252;
+}

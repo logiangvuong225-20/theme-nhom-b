@@ -22,6 +22,13 @@ $less->compileFile('less/m1.less', 'css/m1.css');
 $less->compileFile('less/g1.less', 'css/g1.css');
 
 $less->compileFile('less/e1.less', 'css/e1.css');
+$less->compileFile('less/s2.less', 'css/s2.css');
+$less->compileFile('less/s6.less', 'css/s6.css');
+$less->compileFile('less/b1.less', 'css/b1.css');
+$less->compileFile('less/check-5.less', 'css/check-5.css');
+$less->compileFile('less/check-1.less', 'css/check-1.css');
+$less->compileFile('less/check-2.less', 'css/check-2.css');
+$less->compileFile('less/search-1.less', 'css/search-1.css');
 
 
 
@@ -47,6 +54,13 @@ $less->compileFile('less/e1.less', 'css/e1.css');
     <link href="<?php echo $url_path ?>/css/m1.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/e1.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/g1.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/s2.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/s6.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/b1.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/check-5.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/check-1.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/check-2.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/search-1.css" rel="stylesheet" type="text/css" />
 
 
 
@@ -59,7 +73,6 @@ $less->compileFile('less/e1.less', 'css/e1.css');
     <script
         src='https://cdn2.hubspot.net/hub/322787/hub_generated/style_manager/1440007849180/custom/page/hack-a-thon-3/isotope.min.js'>
     </script>
-    <script src="./script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="./js/g1.js"></script>
@@ -77,16 +90,21 @@ $less->compileFile('less/e1.less', 'css/e1.css');
         $less->compileFile('less/m1.less', 'css/m1.css');
         $less->compileFile('less/e1.less', 'css/e1.css');
         $less->compileFile('less/g1.less', 'css/g1.css');
-
-
-
+        $less->compileFile('less/s2.less', 'css/s2.css');
+        $less->compileFile('less/s6.less', 'css/s6.css');
+        $less->compileFile('less/b1.less', 'css/b1.css');
+        $less->compileFile('less/check-5.less', 'css/check-5.css');
+        $less->compileFile('less/check-1.less', 'css/check-1.css');
+        $less->compileFile('less/check-2.less', 'css/check-2.css');
+        $less->compileFile('less/search-1.less', 'css/search-1.css');
 
         ?>
 </head>
 
 <body>
-    <?php include '../cms/2-content.php'; ?> </body>
-<?php include '../cms/g1-content.php'; ?> </body>
+    <!-- <?php include './b1-content.php'; ?> -->
+    <?php include './check-2-content.php'; ?>
 
+</body>
 
 </html>

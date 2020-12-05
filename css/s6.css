@@ -1,0 +1,130 @@
+.module-s6 .card-product {
+  margin: 40px 0;
+  text-align: center;
+}
+.module-s6 .card-product .box-img {
+  overflow: hidden;
+  position: relative;
+}
+.module-s6 .card-product .box-img img {
+  width: 100%;
+  height: auto;
+}
+.module-s6 .card-product .box-img .shadow-img {
+  width: 100%;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.module-s6 .card-product .box-img .shadow-img i {
+  margin: 30% auto;
+  cursor: pointer;
+}
+.module-s6 .card-product .box-img:hover .shadow-img {
+  height: 100%;
+  transition: 0.5s;
+}
+.module-s6 .card-product .product-title {
+  text-decoration: none;
+  font-weight: bold;
+  color: #404040;
+}
+.module-s6 .card-product .product-title h6 {
+  margin: 20px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  word-break: break-all;
+}
+.module-s6 .card-product .product-des {
+  color: #929292;
+  font-size: 0.9em;
+  word-break: break-all;
+}
+.module-s6 .card-product .product-price {
+  margin: 30px 0;
+}
+.module-s6 .card-product .product-price .price-old {
+  text-decoration-line: line-through;
+  font-weight: bold;
+  color: #929292;
+  margin-right: 10px;
+}
+.module-s6 .card-product .product-price .price-new {
+  color: #00bfff;
+}
+.module-s6 .card-product .addcart {
+  outline: none;
+  padding: 3px 10px;
+  background: #fff;
+  border: 2px solid #404040;
+  font-size: 0.9em;
+  color: #404040;
+}
+.module-s6 .card-product .addcart i {
+  color: #404040;
+  font-size: 0.8em;
+}
+.module-s6 .card-product .addcart:hover {
+  border: 2px solid #00bfff;
+  color: #00bfff;
+  transition: 0.5s;
+}
+.module-s6 .card-product .addcart:hover i {
+  color: #00bfff;
+  transition: 0.5s;
+}
+.module-s6 .modal-open .modal.modal-center {
+  display: flex !important;
+  align-items: center !important;
+}
+.module-s6 .modal-open .modal.modal-center .modal-dialog {
+  flex-grow: 1;
+}
+.module-s6 .modal-dialog {
+  margin-right: 35%;
+  margin-top: 7%;
+}
+.module-s6 .modal-dialog .modal-vp {
+  height: 461px;
+  width: 637px;
+  background: #fff;
+  margin-right: 30%;
+  border: 10px solid #f3f3f3;
+  position: relative;
+}
+.module-s6 .modal-dialog .modal-vp .close {
+  position: absolute;
+  right: -20px;
+  bottom: -15px;
+  cursor: pointer;
+  border: #000 2px solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  background: #929292;
+}
+.module-s6 .modal-dialog .modal-vp .close:hover {
+  background: #686767;
+  transition: 0.2s;
+}
+.module-s6 .modal-dialog .modal-vp .zoom {
+  position: absolute;
+  top: 10px;
+  right: 3px;
+  border-radius: 50%;
+  outline: none;
+  border: 2px solid #686767;
+  cursor: pointer;
+}
+.module-s6 .modal-dialog .modal-vp .box-img {
+  margin: 0 auto;
+  padding-top: 5%;
+  width: 95%;
+}
+.module-s6 .modal-dialog .modal-vp .box-img img {
+  width: 100%;
+  height: 100%;
+}
