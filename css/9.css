@@ -1,0 +1,44 @@
+@import "../../var/var.less";
+#h-module-9 .col-md-4 .product-box {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+#h-module-9 .col-md-4 .product-box .overplay {
+  width: 100%;
+  height: 0%;
+  position: absolute;
+  background: rgba(255,255,255,0.6);
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#h-module-9 .col-md-4 .product-box .overplay a.text-center {
+  font-size: 30px;
+  position: absolute;
+  top: calc(45%);
+  left: calc(47%);
+  text-decoration: none;
+  color: #262626;
+}
+#h-module-9 .col-md-4 .product-box:hover .overplay {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+#h-module-9 .col-md-4 .content-product h5 a {
+  color: #262626;
+}
+#h-module-9 .col-md-4 .content-product p {
+  font-size: 14px;
+}
+#h-module-9 .col-md-4 .content-product .cart-btn {
+  color: #262626;
+  border: 2px solid #262626;
+  padding: 6px 12px;
+}
+#h-module-9 .col-md-4 .content-product .cart-btn:hover {
+  text-decoration: none;
+  color: #00BFFF;
+  border: 2px solid #00BFFF;
+}
