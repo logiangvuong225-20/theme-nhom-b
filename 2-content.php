@@ -59,30 +59,33 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                         </ul>
                     </li>
+
                     <li class="nav-item menu-search">
                         <a class="nav-link" href="#">
-                            <i class="fa fa-search" data-toggle="collapse" href="#collapseExample" role="button"
-                                aria-expanded="false" aria-controls="collapseExample"></i>
+                            <i class="fa fa-search" onclick="myFunction()"></i>
                             </button></a>
 
 
                     </li>
                 </ul>
             </div>
+            <div id="hehe"> hehehe</div>
         </nav>
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body seach">
-                <i class="fa fa-times" aria-hidden="true" style="
-    position: absolute;
-    right: 30px;
-    padding-top: 6px;
-    
-" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                    aria-controls="collapseExample"></i>
+        <div id="search">
+            <i class="fa fa-times" aria-hidden="true" onclick="Close()"></i>
 
-                <input type="text" name="search" id="search">
+            <input type="text" name="search" id="search">
 
-            </div>
         </div>
     </div>
 </div>
+
+<script>
+function myFunction() {
+    document.getElementById("search").style.display = "block";
+}
+
+function Close() {
+    document.getElementById("search").style.display = "none";
+}
+</script>

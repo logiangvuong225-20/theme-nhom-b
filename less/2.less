@@ -37,22 +37,27 @@ body {
       display: block;
     }
   }
-  .menu-search {
-    .sub-search {
+
+  #search {
+    display: none;
+    position: fixed;
+    width: 63%;
+    height: 50px;
+    padding: 20px 10px;
+    left: 18%;
+    top: 20%;
+    border: 1px solid #000;
+    i {
+      cursor: pointer;
+      font-size: 2em;
       position: absolute;
-      left: 0;
-      top: 100px;
+      right: 15px;
+      bottom: 15px;
+    }
+    input {
+      position: absolute;
       width: 100%;
-      height: 50px;
-      border: 1px solid #000;
-      visibility: hidden;
-    }
-    &:focus .sub-search {
-      visibility: visible;
-    }
-    .seach {
-      position: fixed;
-      border: 1px solid #000;
+      height: 80px;
     }
   }
 }

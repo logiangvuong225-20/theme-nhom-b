@@ -115,6 +115,8 @@ $less->compileFile('less/404.less', 'css/404.css');
 
 <body>
     <?php include './2-content.php'; ?>
+    <!-- <?php include './3-content.php'; ?> -->
+
 
 </body>
 
