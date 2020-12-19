@@ -99,10 +99,9 @@
                 position: absolute;
                 hr{
                     border: solid @color-white 2px;
-                    margin: 40px 0;
+                    margin: 4% 0
                 }
                 #hr-bottom{
-                    width: 100%;
                     position: absolute;
                     right: 0;   
                 }
@@ -157,21 +156,38 @@
         }
         .carousel-item.active{
             .sliderLeft{
-                animation: slider-left 2s;
-                animation-fill-mode: forwards !important;
-                animation-delay: 2s;
+                animation: slider-left 0.75s ease-in-out;
+                animation-fill-mode: both !important;
+                animation-delay: 3s;
             }
             .sliderRight{
-                animation: slider-right 2s;
-                animation-delay: 2s;
-                animation-fill-mode: forwards !important;
+                animation: slider-right 0.75s ease-in-out;
+                animation-delay: 3s;
+                animation-fill-mode: both !important;
             }
             .zoomIn{
-                animation: zoomIn 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+                animation: zoomIn 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+                animation-delay: 2.5s;
+                animation-fill-mode: both;
             }
             .hrAnimation{
                 animation: hr-animation 2s ease-out;
+                animation-delay: 1s;
+                animation-fill-mode: both;
             }
+        }
+        .timing-bar{
+            height: 4px;
+            width: 0;
+            background: fade(@color-white, 50%);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .timingAnimation{
+            animation: timingAnimation 9s infinite;
+            animation-timing-function: ease;
         }
     }
 }
@@ -210,5 +226,13 @@
     }
     100%{
         transform: scale(1);
+    }
+}
+@keyframes timingAnimation{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
     }
 }

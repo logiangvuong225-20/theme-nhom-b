@@ -51,16 +51,23 @@ $url_path = str_replace('\\', '/', $url_path);
                 </span>
                 <span class="sr-only">Next</span>
             </a>
+            <div class="timing-bar"></div>
         </div>
     </div>
     <script>
-        $('.carousel').carousel({
-            interval: 10000
-        })
-    </script>
-    <script>
+    $('.carousel').carousel({
+            interval: 9500
+    });
+
     const BG_NEXT = document.getElementsByClassName('left');
     const BG_PREV = document.getElementsByClassName('right');
+    const TIMING = document.getElementsByClassName('timing-bar');
+
+    window.onload = function(){
+        setTimeout(() => {
+            TIMING[0].classList.add('timingAnimation');
+        }, 1000);
+    };
 
     let nextImage, prevImage;
     function getNextAndPrev() {
@@ -87,10 +94,18 @@ $url_path = str_replace('\\', '/', $url_path);
     BG_NEXT[0].addEventListener('click', function(){
         getNextAndPrev();
         BG_NEXT[0].style.background = "url('"+ nextImage+ "'";
+        TIMING[0].classList.remove('timingAnimation');
+        setTimeout(() => {
+            TIMING[0].classList.add('timingAnimation');
+        }, 1000);
     });
     BG_PREV[0].addEventListener('click', function(){
         getNextAndPrev();
         BG_PREV[0].style.background = "url('"+ prevImage+ "'";
+        TIMING[0].classList.remove('timingAnimation');
+        setTimeout(() => {
+            TIMING[0].classList.add('timingAnimation');
+        }, 1000);
     });
     BG_NEXT[0].addEventListener('mouseover', function(){
         BG_NEXT[0].style.background = "url('"+ nextImage+ "'";

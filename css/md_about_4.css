@@ -118,10 +118,9 @@
 }
 .md_about_4 .carousel-fade .carousel-item .carousel-text hr {
   border: solid #ffffff 2px;
-  margin: 40px 0;
+  margin: 4% 0;
 }
 .md_about_4 .carousel-fade .carousel-item .carousel-text #hr-bottom {
-  width: 100%;
   position: absolute;
   right: 0;
 }
@@ -172,20 +171,37 @@
   background: #ffffff;
 }
 .md_about_4 .carousel-fade .carousel-item.active .sliderLeft {
-  animation: slider-left 2s;
-  animation-fill-mode: forwards !important;
-  animation-delay: 2s;
+  animation: slider-left 0.75s ease-in-out;
+  animation-fill-mode: both !important;
+  animation-delay: 3s;
 }
 .md_about_4 .carousel-fade .carousel-item.active .sliderRight {
-  animation: slider-right 2s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards !important;
+  animation: slider-right 0.75s ease-in-out;
+  animation-delay: 3s;
+  animation-fill-mode: both !important;
 }
 .md_about_4 .carousel-fade .carousel-item.active .zoomIn {
-  animation: zoomIn 2s cubic-bezier(0.165,0.84,0.44,1);
+  animation: zoomIn 1.5s cubic-bezier(0.165,0.84,0.44,1);
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
 }
 .md_about_4 .carousel-fade .carousel-item.active .hrAnimation {
   animation: hr-animation 2s ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+.md_about_4 .carousel-fade .timing-bar {
+  height: 4px;
+  width: 0;
+  background: rgba(255,255,255,0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+.md_about_4 .carousel-fade .timingAnimation {
+  animation: timingAnimation 9s infinite;
+  animation-timing-function: ease;
 }
 @keyframes slider-left {
   0% {
@@ -221,5 +237,13 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+@keyframes timingAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
   }
 }
