@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </h4>
                     <input data-validation="required" class="form-control" type="text" name="realname" placeholder="name*">
                     <div class="invalid-feedback">
-                        This field required.
+                        this field required.
                     </div>
                 </div>
                 <div class="contact_field">
@@ -30,7 +30,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </h5>
                     <input data-validation="required" class="form-control" type="number" name="phone" placeholder="phone no*">
                     <div class="invalid-feedback">
-                        This field required.
+                        this field required.
                     </div>
                 </div>
                 <div class="contact_field">
@@ -48,7 +48,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </h4>
                     <input data-validation="required" class="form-control" type="text" name="subject" placeholder="subject*">
                     <div class="invalid-feedback">
-                        This field required.
+                        this field required.
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </h4>
                     <textarea data-validation="required" class="form-control" name="yourmessage" id="message" rows="10" placeholder="your message"></textarea>
                     <div class="invalid-feedback">
-                        This field required.
+                        this field required.
                     </div>
                 </div>
             </div>
