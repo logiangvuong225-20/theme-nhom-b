@@ -1,4 +1,8 @@
 @font-face {
+  font-family: 'Open-sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
   font-family: 'Raleway-rg';
   src: url(../fonts/Raleway-Regular.ttf);
 }
@@ -26,9 +30,9 @@
   text-transform: uppercase;
   font-size: 18px;
   text-align: left;
-  font-family: 'Raleway-rg';
-  font-weight: 600;
+  font-family: 'Raleway-smb';
   padding-top: 10px;
+  letter-spacing: 2px;
   font-family: 'Raleway-bold';
 }
 #md_detail_4 .shoping-cart .cart-list {

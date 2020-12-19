@@ -19,10 +19,10 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-4 col-sm-6">
                 <div class="grid_items">
                     <div class="icon_and_header">
-                        <div class="icon col-xs-2">
+                        <div class="icon ">
                             <span class="iconify" data-icon="clarity:flag-line" data-inline="false"></span>
                         </div>
-                        <div class="header col-xs-10">
+                        <div class="header">
                             <div class="header_title">
                             FISHING COMPETITIONS
                             </div>
@@ -31,7 +31,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                     </div>
-                    <br>
                     <div class="descriptions">
                     Aliquam erat volutpat. Aliquam fringilla vulputate dolor eu gravida Aliquam erat volutpat. Aliquam fringilla.
                     </div>
@@ -41,10 +40,10 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-4 col-sm-6">
                 <div class="grid_items">
                     <div class="icon_and_header">
-                        <div class="icon col-xs-2">
+                        <div class="icon ">
                             <span class="iconify" data-icon="et:circle-compass" data-inline="false"></span>
                         </div>
-                        <div class="header col-xs-10">
+                        <div class="header ">
                             <div class="header_title">
                             FISHING SPOTS
                             </div>
@@ -53,7 +52,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                     </div>
-                    <br>
                     <div class="descriptions">
                     Aliquam erat volutpat. Aliquam fringilla vulputate dolor eu gravida Aliquam erat volutpat. Aliquam fringilla.
                     </div>
@@ -62,10 +60,10 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-4 col-sm-6">
                 <div class="grid_items">
                     <div class="icon_and_header">
-                        <div class="icon col-xs-2">
+                        <div class="icon ">
                         <span class="iconify" data-icon="et:strategy" data-inline="false"></span>
                         </div>
-                        <div class="header col-xs-10">
+                        <div class="header ">
                             <div class="header_title">
                             TIPS & ADVICE
                             </div>
@@ -74,7 +72,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                     </div>
-                    <br>
                     <div class="descriptions">
                     Aliquam erat volutpat. Aliquam fringilla vulputate dolor eu gravida Aliquam erat volutpat. Aliquam fringilla.
                     </div>

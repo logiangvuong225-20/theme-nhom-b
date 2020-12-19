@@ -25,21 +25,21 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="contact_field">
-                    <h4 class="contact_header">
+                    <h5 class="contact_header">
                         PHONE NO
-                    </h4>
+                    </h5>
                     <input data-validation="required" class="form-control" type="number" name="phone" placeholder="phone no*">
                     <div class="invalid-feedback">
                         This field required.
                     </div>
                 </div>
                 <div class="contact_field">
-                    <h4 class="contact_header">
+                    <h5 class="contact_header">
                         EMAIL
-                    </h4>
-                    <input data-validation="required" class="form-control" type="email" name="email" placeholder="email*">
+                    </h5>
+                    <input data-validation="required" id="contactEmail" class="form-control" type="email" name="email" placeholder="email*">
                     <div class="invalid-feedback">
-                        This field required.
+                    please enter correct e-mail address.
                     </div>
                 </div>
                 <div class="contact_field">
@@ -64,7 +64,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>
-        <a href="#"  type="submit" class="btn-accent" id="submitContact">
+        <a href="#" type="submit" class="btn-accent" id="submitContact">
                     send message
                     <i class="fas fa-long-arrow-alt-right"></i>
                 </a>

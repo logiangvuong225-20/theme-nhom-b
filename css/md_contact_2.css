@@ -1,4 +1,8 @@
 @font-face {
+  font-family: 'Open-sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
   font-family: 'Raleway-rg';
   src: url(../fonts/Raleway-Regular.ttf);
 }
@@ -20,6 +24,10 @@
   margin-right: auto;
   margin-left: auto;
   font-family: 'Raleway-rg';
+}
+#md_contact_2 .container .contact_field .contact_header {
+  font-family: 'Raleway-bold';
+  font-size: 17px;
 }
 #md_contact_2 .container .contact_field .form-control {
   font-size: 15px;

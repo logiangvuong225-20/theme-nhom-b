@@ -11,8 +11,8 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
- <section id="module_11">
-        <div class="md_11_conatiner">
+ <section class="md_11">
+     <div class="container">
             <div class="md_11_title">
                 PLANS & PRICINGS
             </div>
@@ -39,7 +39,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card active">
                         <div class="card-body">
                             <h5 class="card-title">stadard plans</h5>
                             <div class="card_price">
@@ -102,5 +102,5 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
     </section>

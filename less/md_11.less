@@ -1,19 +1,8 @@
-/*Color variables*/
-@color-primary: #00bfff;
-@color-black: #000000;
-@color-secondary: #9fa19c;
-@color-dark: #262626;
-@color-white: #ffffff;
-/*Size variables*/
-@fsize-tiny: 10px;
-@fsize-small: 12px;
-@fsize-medium: 14px;
-@fsize-large: 40px;
+@import './variables.less';
 
 /*Module 11*/
-.md_11_conatiner{
-    margin: 0 15%;
-    margin-top: 10px;
+.md_11{
+    .raleway-regular();
 
     /*Title*/
     .md_11_title{
@@ -39,46 +28,69 @@
         border: @color-black 1px solid;
         border-radius: 0 !important;
         cursor: pointer;
+        transition: .3s ease-in-out;
         .card-body{
             padding: 0 0 15px 0 !important;
             text-align: center;
             .card-title{
+                .raleway-bold();
                 text-align: center;
                 background: @color-dark;
                 color: @color-white;
                 padding: 30px 20px;
-                font-size: 16px;
+                font-size: @fsize-medium + 4;
                 text-transform: uppercase;
                 margin: 0 !important;
+                transition: .3s ease-in-out;
             }
             .card_price{
-                font-size: @fsize-large;
+                .raleway-bold();
+                font-size: @fsize-large + 15;
                 text-align: center;
                 padding-top: 30px;
+                transition: .3s ease-in-out;
             }
             .card_price_sub{
-                font-size: @fsize-tiny;
+                .raleway-bold();
+                font-size: @fsize-medium - 1;
                 color: @color-secondary;
                 text-align: center;
                 padding-bottom: 20px;
             }
             .card_text{
+                .raleway-sm-bold();
                 text-align: center;
                 color: @color-secondary;
-                font-size: @fsize-tiny;
-                line-height: 40px;
+                font-size: @fsize-medium;
+                line-height: 50px;
             }
             .md_11_btn{
+                .raleway-bold();
                 background: @color-white;
                 text-transform: uppercase;
-                border: @color-black 1px solid;
-                padding: 0.25em;
+                border: @color-black 2px solid;
+                padding: 5px 7px;
                 color: @color-black;
-                font-size: 12px;
+                font-size: @fsize-medium + 2;
+                transition: .3s ease-in-out;
             }
         }
     }
+    .active{
+        border: 1px @color-primary solid;
+        color: @color-primary !important;
+        .card-body{
+            .card-title{
+                background: @color-primary;
+            }
+        }
+        .md_11_btn{
+            color: @color-primary !important;
+            border: 2px @color-primary solid !important;
+        }
+    }
     .card:hover{
+        transition: .3s ease-in-out;
         border: @color-primary 1px solid;
         .card-title{
             background: @color-primary;
@@ -86,7 +98,7 @@
         }
         .md_11_btn{
             color: @color-primary;
-            border: @color-primary 1px solid;
+            border: @color-primary 2px solid;
             font-weight: 500;
         }
         .card_price{

@@ -1,8 +1,27 @@
-.md_11_conatiner {
-  margin: 0 15%;
-  margin-top: 10px;
+@font-face {
+  font-family: 'Open-sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
 }
-.md_11_conatiner .md_11_title {
+@font-face {
+  font-family: 'Raleway-rg';
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: 'Raleway-smb';
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Raleway-thin';
+  src: url(../fonts/Raleway-Thin.ttf);
+}
+@font-face {
+  font-family: 'Raleway-bold';
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+.md_11 {
+  font-family: 'Raleway-rg';
+}
+.md_11 .md_11_title {
   text-transform: uppercase;
   padding: 5px 0;
   text-align: center;
@@ -11,7 +30,7 @@
   font-size: 14px;
   margin-bottom: 20px;
 }
-.md_11_conatiner .md_11_title::before {
+.md_11 .md_11_title::before {
   content: "";
   border-bottom: 2px solid #00bfff;
   width: 20px;
@@ -19,61 +38,82 @@
   top: -15%;
   left: 49%;
 }
-.md_11_conatiner .card {
+.md_11 .card {
   border: #000000 1px solid;
   border-radius: 0 !important;
   cursor: pointer;
+  transition: .3s ease-in-out;
 }
-.md_11_conatiner .card .card-body {
+.md_11 .card .card-body {
   padding: 0 0 15px 0 !important;
   text-align: center;
 }
-.md_11_conatiner .card .card-body .card-title {
+.md_11 .card .card-body .card-title {
+  font-family: 'Raleway-bold';
   text-align: center;
-  background: #262626;
+  background: #1d1c1c;
   color: #ffffff;
   padding: 30px 20px;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
   margin: 0 !important;
+  transition: .3s ease-in-out;
 }
-.md_11_conatiner .card .card-body .card_price {
-  font-size: 40px;
+.md_11 .card .card-body .card_price {
+  font-family: 'Raleway-bold';
+  font-size: 55px;
   text-align: center;
   padding-top: 30px;
+  transition: .3s ease-in-out;
 }
-.md_11_conatiner .card .card-body .card_price_sub {
-  font-size: 10px;
+.md_11 .card .card-body .card_price_sub {
+  font-family: 'Raleway-bold';
+  font-size: 13px;
   color: #9fa19c;
   text-align: center;
   padding-bottom: 20px;
 }
-.md_11_conatiner .card .card-body .card_text {
+.md_11 .card .card-body .card_text {
+  font-family: 'Raleway-smb';
   text-align: center;
   color: #9fa19c;
-  font-size: 10px;
-  line-height: 40px;
+  font-size: 14px;
+  line-height: 50px;
 }
-.md_11_conatiner .card .card-body .md_11_btn {
+.md_11 .card .card-body .md_11_btn {
+  font-family: 'Raleway-bold';
   background: #ffffff;
   text-transform: uppercase;
-  border: #000000 1px solid;
-  padding: 0.25em;
+  border: #000000 2px solid;
+  padding: 5px 7px;
   color: #000000;
-  font-size: 12px;
+  font-size: 16px;
+  transition: .3s ease-in-out;
 }
-.md_11_conatiner .card:hover {
+.md_11 .active {
+  border: 1px #00bfff solid;
+  color: #00bfff !important;
+}
+.md_11 .active .card-body .card-title {
+  background: #00bfff;
+}
+.md_11 .active .md_11_btn {
+  color: #00bfff !important;
+  border: 2px #00bfff solid !important;
+}
+.md_11 .card:hover {
+  transition: .3s ease-in-out;
   border: #00bfff 1px solid;
 }
-.md_11_conatiner .card:hover .card-title {
+.md_11 .card:hover .card-title {
   background: #00bfff;
   color: #ffffff;
 }
-.md_11_conatiner .card:hover .md_11_btn {
+.md_11 .card:hover .md_11_btn {
   color: #00bfff;
-  border: #00bfff 1px solid;
+  border: #00bfff 2px solid;
   font-weight: 500;
 }
-.md_11_conatiner .card:hover .card_price {
+.md_11 .card:hover .card_price {
   color: #00bfff;
 }

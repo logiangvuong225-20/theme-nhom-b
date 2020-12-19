@@ -1,4 +1,8 @@
 @font-face {
+  font-family: 'Open-sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
   font-family: 'Raleway-rg';
   src: url(../fonts/Raleway-Regular.ttf);
 }
@@ -122,7 +126,7 @@
   right: 0;
 }
 .md_about_4 .carousel-fade .carousel-item .carousel-text .qoutes {
-  font-family: 'Raleway-rg';
+  font-family: 'Open-sans';
   color: #ffffff;
   font-style: italic;
   padding: 0 15px;
@@ -142,6 +146,7 @@
   margin: 100px 10px;
   opacity: 0;
   animation-fill-mode: forwards !important;
+  cursor: pointer;
 }
 .md_about_4 .carousel-fade .carousel-item .carousel-text .carousel-actions .btn-carousel:hover {
   transition: .3s ease-in-out;

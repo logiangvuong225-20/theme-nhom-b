@@ -2,6 +2,27 @@
 
 
 #module_7{
+    @media screen and (max-width: @md) {
+        .grid_items{
+            padding: 5px 0 !important;
+        }
+        .icon_and_header{
+            display: block !important;
+        }
+        .icon{
+            padding: 0 !important;
+        }
+        .header{
+            padding: 0 !important;
+            .header_title{
+                padding: 0 !important;
+                font-size: @fsize-medium + 4 !important;
+            }
+        }
+        .descriptions{
+            padding: 0 !important;
+        }
+    }
     padding: 25px 0;
     .container{
         hr{
@@ -19,6 +40,7 @@
                     padding: 7px 0;
                 }
                 .icon_and_header{
+                    display: flex;
                     .icon{
                         .iconify{
                             font-size: @fsize-large + 25;
@@ -27,20 +49,20 @@
                     .header{
                         padding-left: 10px;
                         .header_title{
-                            .raleway-sm-bold();
+                            .raleway-bold();
                             font-size: @fsize-medium + 3;
                         }
                         .header_subtitle{
                             .raleway-sm-bold();
                             font-size: @fsize-medium;
                             color: @color-secondary;
-                            letter-spacing: 3px;
+                            letter-spacing: 4px;
                         }
                     }
                 }
                 .descriptions{
-                    .raleway-thin();
-                    font-size: @fsize-medium + 2;
+                    .raleway-regular();
+                    font-size: @fsize-medium + 1;
                 }
             }
         }
