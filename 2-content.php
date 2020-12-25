@@ -11,8 +11,9 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="container">
-    <div class="nav-header">
+
+<div class="nav-header">
+    <div class="container">
         <nav class="navbar navbar-expand-sm navbar-light">
             <a class="navbar-brand" href="#"><img
                     src="http://kamleshyadav.com/wp/fishing/wp-content/uploads/2016/09/Logo12.png" alt="logo" /></a>
@@ -35,46 +36,112 @@ $url_path = str_replace('\\', '/', $url_path);
                     <li class="nav-item">
                         <a class="nav-link" href="#">EVENT</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item gallery-menu">
                         <a class="nav-link" href="#">GALLERY</a>
+                        <ul class="submenu-sb">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="title">
+                                        <a href="#"> Gallery 3 Columns</a>
+                                    </p>
+                                    <p class="title">
+                                        <a href="#"> Gallery 3 Columns</a>
+                                    </p>
+                                    <p class="title">
+                                        <a href="#"> Gallery 3 Columns</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="title">
+                                        <a href="#"> Gallery 3 Columns</a>
+                                    </p>
+                                    <p class="title">
+                                        <a href="#"> Gallery 3 Columns</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">SHOP</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item blog-menu">
                         <a class="nav-link" href="#">BLOG</a>
+                        <ul class="submenu-sb ">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="title">
+                                        <a href="#"> BLOG CENTER</a>
+                                    </p>
+                                    <p class="title">
+                                        <a href="#"> BLOCK CENTER RIGHT </a>
+                                    </p>
+                                    <p class="title">
+                                        <a href="#"> BLOCK CENTER RIGHT</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="title">
+                                        <a href="#"> BLOCK CENTER RIGHT</a>
+                                    </p>
+                                    <p class="title">
+                                        <a href="#"> BLOCK CENTER RIGHT</a>
+                                    </p>
+                                    <p class="title">
+                                        <a href="#"> BLOCK CENTER RIGHT</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">CONTACT</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">BLOG</a>
-                    </li>
-                    <li class="nav-item menucart">
+
+                    <li class="nav-item menucart ">
                         <a class="nav-link" href="#">
-                            <i class="fa fa-shopping-cart"></i></a>
-                        <ul class="submenu">
-                            <li class="submenucart">
-                                Helloo
-                            </li>
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                        <ul class="submenu ">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="img-cart-hv"
+                                        src="http://kamleshyadav.com/wp/fishing/wp-content/uploads/2016/07/boats-1199112_960_720-1-150x150.jpg"
+                                        alt="#">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="name-pr">Boast</div>
+                                    <div class="toal">
+                                        <span class="total">1 x</span>
+                                        <span class="price">500k</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sp2">
+                                <a class="btn-view-cart" href="#">VIEW CART</a> <span class="price-cart">500k</span>
+                            </div>
                         </ul>
                     </li>
 
                     <li class="nav-item menu-search">
                         <a class="nav-link" href="#">
                             <i class="fa fa-search" onclick="myFunction()"></i>
-                            </button></a>
-
+                        </a>
 
                     </li>
                 </ul>
             </div>
-            <div id="hehe"> hehehe</div>
         </nav>
         <div id="search">
+            <input type="text" name="search" id="ipsearch" placeholder="Search for somthing">
+
             <i class="fa fa-times" aria-hidden="true" onclick="Close()"></i>
 
-            <input type="text" name="search" id="search">
+
 
         </div>
     </div>
