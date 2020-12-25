@@ -28,18 +28,62 @@
   text-align: right;
 }
 .module-3 .carousel-fade .carousel-item .content-incar .wl-to {
+  width: 300px;
   font-weight: bold;
+  font-size: 1.1em;
   color: #fff;
   background-color: #00bfff;
-  padding: 5px;
+  text-align: center;
   border-radius: 20px;
+  padding: 10px 20px;
+}
+.module-3 .carousel-fade .carousel-item .content-incar .les-lay {
+  font-size: 50px;
+  color: #fff;
+}
+.module-3 .carousel-fade .carousel-item .content-incar .h-lay {
+  font-size: 80px;
+  color: #fff;
+}
+.module-3 .carousel-fade .carousel-item .content-incar .start-he {
+  background-color: rgba(255,193,7,0.8);
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.module-3 .carousel-fade .carousel-item .content-incar .start-he:hover {
+  background-color: #ffffff;
+  color: rgba(255,193,7,0.8);
+  transition: 0.3s;
 }
 .module-3 .carousel-fade .carousel-item .content-incar2 {
   position: absolute;
-  left: 30%;
-  top: 40%;
+  left: 18%;
+  top: 20%;
   text-align: left;
   transition: 1s;
+}
+.module-3 .carousel-fade .carousel-item .h-lay2,
+.module-3 .carousel-fade .carousel-item .les-lay2 {
+  color: #ffffff;
+  font-size: 40px;
+}
+.module-3 .carousel-fade .carousel-item .now-he {
+  background-color: rgba(255,193,7,0.8);
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+  color: #fff;
+}
+.module-3 .carousel-fade .carousel-item .now-he:hover {
+  background-color: #ffffff;
+  color: rgba(255,193,7,0.8);
+  transition: 0.3s;
 }
 .module-3 .pre-nex {
   opacity: 0;

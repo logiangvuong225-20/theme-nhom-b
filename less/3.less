@@ -9,6 +9,8 @@
 }
 @color-base: #000;
 @color-hv: #00bfff;
+@color-yellow:rgba (255, 193, 7, 0.8);
+@color-white:rgb (255, 255, 255);
 .module-3 {
   width: 100%;
   height: 400px;
@@ -26,23 +28,70 @@
         position: absolute;
         right: 30%;
         top: 20%;
+
         text-align: right;
         .wl-to {
+          width: 300px;
           font-weight: bold;
-
+          font-size: 1.1em;
           color: #fff;
-          background-color: @color-hv;
-          padding: 5px;
+          background-color: #00bfff;
+          text-align: center;
+
           border-radius: 20px;
+          padding: 10px 20px;
+        }
+        .les-lay {
+          font-size: 50px;
+          color: #fff;
+        }
+        .h-lay {
+          font-size: 80px;
+          color: #fff;
+        }
+        .start-he {
+          background-color: @color-yellow;
+          padding: 10px 15px;
+          border-radius: 30px;
+          font-weight: bold;
+          color: #fff;
+          text-decoration: none;
+
+          transition: 0.3s;
+          &:hover {
+            background-color: @color-white;
+            color: @color-yellow;
+            transition: 0.3s;
+          }
         }
       }
       position: relative;
       .content-incar2 {
         position: absolute;
-        left: 30%;
-        top: 40%;
+        left: 18%;
+        top: 20%;
         text-align: left;
         transition: 1s;
+      }
+      .h-lay2,
+      .les-lay2 {
+        color: @color-white;
+        font-size: 40px;
+      }
+
+      .now-he {
+        background-color: @color-yellow;
+        padding: 10px 15px;
+        border-radius: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: 0.3s;
+        color: #fff;
+        &:hover {
+          background-color: @color-white;
+          color: @color-yellow;
+          transition: 0.3s;
+        }
       }
     }
   }
