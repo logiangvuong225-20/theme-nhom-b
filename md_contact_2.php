@@ -25,7 +25,7 @@ $less->compileFile('less/md_contact_2.less', 'css/md_contact_2.css');
         <link href="<?php echo $url_path ?>/css/md_contact_2.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome/all.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery-3.5.1.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/validation.js"></script>
+        <script src="<?php echo $url_path ?>/js/md_contact_2.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <?php
         if (!class_exists('lessc')) {

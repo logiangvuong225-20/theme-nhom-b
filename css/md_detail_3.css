@@ -1,4 +1,8 @@
 @font-face {
+  font-family: 'Open-sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
   font-family: 'Raleway-rg';
   src: url(../fonts/Raleway-Regular.ttf);
 }
@@ -15,7 +19,6 @@
   src: url(../fonts/Raleway-Bold.ttf);
 }
 #md_detail_3 {
-  margin: 10px;
   font-family: 'Raleway-rg';
 }
 @media screen and (max-width: 768px) {
@@ -55,9 +58,9 @@
   text-transform: uppercase;
   font-size: 18px;
   text-align: left;
-  font-family: 'Raleway-rg';
-  font-weight: 600;
+  font-family: 'Raleway-smb';
   padding-top: 10px;
+  letter-spacing: 2px;
   font-family: 'Raleway-bold';
 }
 #md_detail_3 p {
