@@ -11,13 +11,18 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div id="h-module-check-out-8">
+<div id="h-module-check-out-9">
    <hr>
-   <h4>META</h4>
+   <h4>About Us</h4>
+   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+      We will create a unique and visually pleasing logo to reflect your overall brand to be used in all areas of your marketing.
+   </p>
    <ul>
-      <li> <a href="#"></a> LOG IN</li>
-      <li><a href="#"></a>ENTRIES FEED</li>
-      <li><a href="#"></a>COMMENTS FEED</li>
-      <li><a href="#"></a>WORDPRESS.ORG</li>
+      <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+      <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+      <li><i class="fa fa-vimeo-square" aria-hidden="true"></i></li>
+      <li><i class="fa fa-dribbble" aria-hidden="true"></i></li>
+      <li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+
    </ul>
 </div>
