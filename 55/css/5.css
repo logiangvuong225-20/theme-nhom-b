@@ -1,0 +1,31 @@
+.explore h4 {
+  font-size: 1em;
+  font-weight: 600;
+  color: #404040;
+  text-align: center;
+  margin-bottom: 50px !important;
+}
+.explore .bd-top {
+  border-top: 2px solid #00bfff;
+  width: 30px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.explore .row-text-small-feature {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 30px !important;
+}
+.explore .row-text-small-feature .icon {
+  font-size: 36px;
+  color: #00bfff !important;
+}
+.explore .row-text-small-feature h5 {
+  font-weight: bold;
+  color: #404040;
+}
+.explore .row-text-small-feature p {
+  font-size: 15px;
+  line-height: 25px;
+  margin: 10px 0;
+  color: #636363;
+}

@@ -1,0 +1,15 @@
+@import "../../var/var.less";
+#h-module-10 {
+  background: #00BFFF;
+  padding: 60px 0;
+}
+#h-module-10 .row {
+  color: #fff;
+}
+#h-module-10 .row .col-md:not(:last-child) {
+  border-right: 1px solid #3171B2;
+}
+#h-module-10 .row .col-md h1 {
+  font-size: 50px;
+  margin: 15px 0;
+}
