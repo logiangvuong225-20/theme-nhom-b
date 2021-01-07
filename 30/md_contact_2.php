@@ -36,6 +36,6 @@ $less->compileFile('less/md_contact_2.less', 'css/md_contact_2.css');
         ?>
     </head>
     <body >
-        <?php include '../cms/md_contact_2-content.php'; ?>
+        <?php include '../30/md_contact_2-content.php'; ?>
     </body>
 </html>

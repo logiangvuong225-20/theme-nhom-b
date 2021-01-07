@@ -12,10 +12,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <section id="md_membership_2">
-    <div class="container">
         <div class="membership">
-            <div class="row">
-                <div class="col-xs-6">
                 <hr>
                     <h4>club membership</h4>
                     <ul>
@@ -50,11 +47,5 @@ $url_path = str_replace('\\', '/', $url_path);
                             </h5>
                         </li>
                     </ul>
-                </div>
-                <div class="col-xs-6">
-                membership_module_3
-                </div>
-            </div>
-        </div>
     </div>
 </section>

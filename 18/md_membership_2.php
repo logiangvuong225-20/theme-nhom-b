@@ -32,6 +32,6 @@ $less->compileFile('less/md_membership_2.less', 'css/md_membership_2.css');
         ?>
     </head>
     <body >
-        <?php include '../cms/md_membership_2-content.php'; ?>
+        <?php include '../18/md_membership_2-content.php'; ?>
     </body>
 </html>

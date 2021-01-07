@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Open-sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'Raleway-rg';
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: 'Raleway-smb';
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Raleway-thin';
+  src: url(../fonts/Raleway-Thin.ttf);
+}
+@font-face {
+  font-family: 'Raleway-bold';
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+#md_checkout_6 hr {
+  width: 35px;
+  border: #00bfff 2px solid;
+  margin-left: 0;
+}
+#md_checkout_6 h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Raleway-smb';
+  padding-top: 10px;
+  letter-spacing: 2px;
+}
+#md_checkout_6 ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none;
+  padding-top: 5px !important;
+  padding-left: 30px !important;
+}
+#md_checkout_6 ul li {
+  transition: all 0.25s ease-in-out;
+  position: relative;
+  margin: 30px 0;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+#md_checkout_6 ul li ::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f30b";
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+  position: absolute;
+  top: -30%;
+  left: -30px;
+  border: 2px #000000 solid;
+}
+#md_checkout_6 ul li a {
+  transition: all 0.25s ease-in-out;
+  font-family: 'Raleway-rg';
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+#md_checkout_6 ul li:hover {
+  transition: all 0.25s ease-in-out;
+}
+#md_checkout_6 ul li:hover ::before {
+  border: 2px #00bfff solid;
+}
+#md_checkout_6 ul li:hover a {
+  transition: all 0.25s ease-in-out;
+  color: #00bfff;
+}

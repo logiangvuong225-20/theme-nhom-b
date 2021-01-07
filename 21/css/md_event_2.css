@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Open-sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'Raleway-rg';
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: 'Raleway-smb';
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Raleway-thin';
+  src: url(../fonts/Raleway-Thin.ttf);
+}
+@font-face {
+  font-family: 'Raleway-bold';
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+#module_event_2 hr {
+  width: 35px;
+  border: #00bfff 2px solid;
+  margin-left: 0;
+}
+#module_event_2 h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Raleway-smb';
+  padding-top: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+#module_event_2 .row .events img {
+  margin-bottom: 25px;
+  height: auto;
+  max-width: 100%;
+}
+#module_event_2 .row .events h4 {
+  font-family: 'Raleway-smb';
+  text-transform: none !important;
+}
+#module_event_2 .row .events .event-detail {
+  font-family: 'Raleway-rg';
+  font-size: 15px;
+}

@@ -33,6 +33,6 @@ $less->compileFile('less/md_sliderbar_4.less', 'css/md_sliderbar_4.css');
         ?>
     </head>
     <body >
-        <?php include '../cms/md_sliderbar_4-content.php'; ?>
+        <?php include '../52/md_sliderbar_4-content.php'; ?>
     </body>
 </html>

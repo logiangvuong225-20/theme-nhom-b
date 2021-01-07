@@ -33,6 +33,6 @@ $less->compileFile('less/md_detail_4.less', 'css/md_detail_4.css');
         ?>
     </head>
     <body >
-        <?php include '../cms/md_detail_4-content.php'; ?>
+        <?php include '../48/md_detail_4-content.php'; ?>
     </body>
 </html>

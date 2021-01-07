@@ -33,6 +33,6 @@ $less->compileFile('less/md_blog_2.less', 'css/md_blog_2.css');
         ?>
     </head>
     <body >
-        <?php include '../cms/md_blog_2-content.php'; ?>
+        <?php include '../28/md_blog_2-content.php'; ?>
     </body>
 </html>

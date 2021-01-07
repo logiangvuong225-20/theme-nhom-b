@@ -33,6 +33,6 @@ $less->compileFile('less/md_checkout_3.less', 'css/md_checkout_3.css');
         ?>
     </head>
     <body >
-        <?php include '../cms/md_checkout_3-content.php'; ?>
+        <?php include '../36/md_checkout_3-content.php'; ?>
     </body>
 </html>

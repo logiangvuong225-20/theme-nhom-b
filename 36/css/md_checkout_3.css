@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Open-sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'Raleway-rg';
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: 'Raleway-smb';
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Raleway-thin';
+  src: url(../fonts/Raleway-Thin.ttf);
+}
+@font-face {
+  font-family: 'Raleway-bold';
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+#md_checkout_3 {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#md_checkout_3 .checkout_heading {
+  text-transform: uppercase;
+  font-family: 'Raleway-bold';
+}
+#md_checkout_3 .table_checkout_content {
+  margin: 70px 0 20px 0;
+  border-collapse: separate;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 5px;
+  width: 100%;
+  font-family: 'Raleway-rg';
+  font-size: 15px;
+}
+#md_checkout_3 .table_checkout_content th {
+  font-weight: 700;
+  padding: 9px 12px;
+  line-height: 1.5em;
+}
+#md_checkout_3 .table_checkout_content tbody td {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding: 9px 12px;
+  line-height: 1.5em;
+}
+#md_checkout_3 .table_checkout_content tbody .order_items .product_subtotal {
+  display: flex;
+}
+#md_checkout_3 .table_checkout_content tbody ._subtotal {
+  font-weight: 800;
+}
+#md_checkout_3 .table_checkout_content tbody ._subtotal .cart_subtotal {
+  display: flex;
+}
+#md_checkout_3 .table_checkout_content tbody ._total {
+  font-weight: 800;
+}
+#md_checkout_3 .table_checkout_content tbody ._total .cart_total {
+  display: flex;
+}
+#md_checkout_3 .payment {
+  background-color: rgba(159,161,156,0.3);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+#md_checkout_3 .payment ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 15px 0 !important;
+}
+#md_checkout_3 .payment ul li {
+  padding: 9px 12px;
+  line-height: 1.5em;
+}
+#md_checkout_3 .payment ul .checkout_notice {
+  font-size: 10px;
+  color: #ffffff;
+}
+#md_checkout_3 .payment .proceed_to_checkout {
+  padding: 10px;
+  text-align: right;
+}
+#md_checkout_3 .payment .proceed_to_checkout .btn-default {
+  font-size: 14px;
+  border: 2px #000000 solid !important;
+  border-radius: none !important;
+  padding: 2px 7px;
+  font-family: 'Raleway-smb';
+  text-transform: uppercase;
+  background: 0 !important;
+  transition: .3s ease-in-out all;
+}
+#md_checkout_3 .payment .proceed_to_checkout .btn-default:hover {
+  border: 2px #00bfff solid !important;
+  color: #00bfff;
+  transition: .3s ease-in-out all;
+}

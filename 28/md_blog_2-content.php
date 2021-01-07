@@ -12,7 +12,6 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <section id="md_blog_2">
-    <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="accent">
@@ -40,5 +39,4 @@ $url_path = str_replace('\\', '/', $url_path);
                 </a>
             </div>
         </div>
-    </div>
 </section>
