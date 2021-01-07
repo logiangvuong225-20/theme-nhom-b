@@ -37,6 +37,6 @@ $less->compileFile('less/md_about_4.less', 'css/md_about_4.css');
         ?>
     </head>
     <body >
-        <?php include '../cms/md_about_4-content.php'; ?>
+        <?php include '../16/md_about_4-content.php'; ?>
     </body>
 </html>
