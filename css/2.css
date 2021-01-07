@@ -29,6 +29,7 @@ body {
 }
 .nav-header .menucart .submenu {
   width: 250px;
+  z-index: 9999;
   top: 80px;
   position: absolute;
   list-style: none;
@@ -77,6 +78,7 @@ body {
   padding: 20px 10px;
   left: 20%;
   top: 19%;
+  z-index: 9999;
   border: 1px solid #c2c0c0;
   background-color: #dfdfdf;
 }
@@ -100,6 +102,7 @@ body {
 .nav-header .submenu-sb {
   width: 500px;
   top: 120%;
+  z-index: 9999;
   position: absolute;
   list-style: none;
   opacity: 0;
