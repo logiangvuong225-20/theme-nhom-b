@@ -1,0 +1,33 @@
+@import "../../var/var.less";
+#h-module-check-out-4 hr {
+  background: #00BFFF !important;
+  height: 2px;
+  width: 35px;
+  border: none;
+  text-align: center;
+  background: #ffc925;
+  display: inline-block;
+  margin: 5px auto;
+}
+#h-module-check-out-4 h4 {
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+}
+#h-module-check-out-4 ul {
+  padding: 0;
+  list-style: none;
+}
+#h-module-check-out-4 ul li {
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e1e1e1;
+}
+#h-module-check-out-4 ul li a {
+  transition: all 0.3s ease;
+  color: #8d8d8d;
+  font-size: 16px;
+}

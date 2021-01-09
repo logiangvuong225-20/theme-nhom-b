@@ -1,0 +1,31 @@
+@import "../../var/var.less";
+#h-module-s3 hr {
+  background: #00BFFF !important;
+  height: 2px;
+  width: 35px;
+  border: none;
+  text-align: center;
+  background: #ffc925;
+  display: inline-block;
+  margin: 5px auto;
+}
+#h-module-s3 h4 {
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+#h-module-s3 ul {
+  list-style: none;
+  padding: 0;
+}
+#h-module-s3 ul li {
+  font-weight: 600;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e1e1e1;
+}
+#h-module-s3 ul li a {
+  color: #8d8d8d;
+  font-size: 14px;
+  text-transform: uppercase;
+}
